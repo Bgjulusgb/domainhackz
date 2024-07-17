@@ -1,0 +1,56 @@
+:root {
+  --background: #000000;
+  --background-secondary: #212121;
+  --foreground: #ffffff;
+  --foreground-secondary: #ffffff77;
+  --foreground-tertiary: #ffffff55;
+
+  --red: #eb3b5a;
+  --green: #20bf6b;
+  --blue: #4b7bec;
+
+  --red-washed: #eb3b5a88;
+  --green-washed: #20bf6b88;
+  --blue-washed: #4b7bec88;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  color: var(--foreground);
+  background-color: var(--background);
+}
+
+html,
+body,
+div#__next {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid var(--foreground);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  background-color: var(--background-secondary);
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+  color: var(--foreground);
+  display: block;
+  max-width: max-content;
+  white-space: nowrap;
+  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
